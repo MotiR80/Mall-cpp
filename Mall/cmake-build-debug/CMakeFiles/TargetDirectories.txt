@@ -1,0 +1,3 @@
+D:/c++ exercise/Mall/cmake-build-debug/CMakeFiles/Mall.dir
+D:/c++ exercise/Mall/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/c++ exercise/Mall/cmake-build-debug/CMakeFiles/rebuild_cache.dir

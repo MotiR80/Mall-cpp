@@ -1,0 +1,40 @@
+signup seller user1 1234 Ali Akbari 1380/06/5 male
+addProduct 12345 Apple Food FreshFood 10000 1/1/1999 1/1/1999
+addProduct 12346 kif Food FreshFood 10000 1/1/1999 1/1/2002
+addProduct 12347 phone other good 50000 1/1/1999 5/1/2021
+addProduct 12348 Apple Food good 20000 1/1/1999 5/18/2021
+addProduct 12349 Airbus other FreshFood 100000 1/1/1999 6/1/2021
+addProduct 12350 chips Food FreshFood 25000 1/1/1999 5/19/2021
+quit
+login admin admin
+removeExpiredProducts
+quit
+signup customer user2 1234 Ali Akbari 1380/06/5 male
+getCredit
+IncreaseCredit 100000
+getCredit
+buy 12350
+getCredit
+getMyProducts
+quit
+login user1 1234
+getMyProducts
+getCredit
+updateProduct 12349 -p 75000
+getMyProducts
+quit
+getProducts -man 1/1/1999
+getProducts -minP 20000 -man 1/1/1999 -t Food
+login user2 1234
+removeProduct 12350
+getCredit
+getMyProducts
+quit
+login user1 1234
+getMyProducts
+getCredit
+quit
+login admin admin
+getPersons
+removePerson [Id] //
+getProducts
